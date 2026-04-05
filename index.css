@@ -1,0 +1,172 @@
+
+
+
+
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  background-color:#e1ede5
+  
+}
+
+.botao-linkedin {
+  display: inline-block;
+
+  padding: 10px 20px;
+  margin: 10px 0;
+
+  background-color: #0a66c2;
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+/* efeito hover */
+.botao-linkedin:hover {
+  background-color: #004182;
+  transform: scale(1.05);
+}
+
+.botao-telefone {
+  display: inline-block;
+
+  padding: 10px 20px;
+  margin: 10px 0;
+
+  background-color: #25d366; /* verde estilo WhatsApp/telefone */
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+/* hover */
+.botao-telefone:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+.botao-email {
+  display: inline-block;
+
+  padding: 10px 20px;
+  margin: 10px 0;
+
+  background-color: #ea4335; /* vermelho estilo Gmail */
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+/* efeito hover */
+.botao-email:hover {
+  background-color: #c5221f;
+  transform: scale(1.05);
+}
+
+.botao-github {
+  display: inline-block;
+
+  padding: 10px 20px;
+  margin: 10px 0;
+
+  background-color: #24292e; /* preto GitHub */
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+/* hover */
+.botao-github:hover {
+  background-color: #444c56;
+  transform: scale(1.05);
+}
+
+.botao-pages {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+/* hover */
+.botao-pages:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.container-botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  
+  position: absolute;
+  top: 20px;      /* sobe o texto */
+  left: 43%;
+  transform: translateX(-50%);
+  color: rgb(30, 28, 28);
+  font-size: 32px;
+}
+
+
+  .title2 {
+  
+  position: absolute;
+  top: 500px;
+  left: 45%;
+  transform: translateX(-50%);
+  color: rgb(30, 28, 28);
+  font-size: 16px;
+}
+
+.botoes {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+  
+  
+
+
